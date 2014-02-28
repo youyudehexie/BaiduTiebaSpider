@@ -6,7 +6,9 @@ sys.setdefaultencoding( "utf-8" )
 import urllib2
 import urllib
 import re
-from BeautifulSoup import BeautifulSoup 
+#from BeautifulSoup import BeautifulSoup 
+import bs4
+from bs4 import BeautifulSoup
 
 def _readtopics(filename='topics.txt'):
 	try:
